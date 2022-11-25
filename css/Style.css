@@ -286,7 +286,22 @@ main .site-title6 h1, h3{
     margin: .3rem;
 }
 
+main .site-title7{
+    background: url('../assets/Billiards8.jpg');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+main .site-title7 .site-background{
+    padding-top: 12rem;
+    text-align: center;
+    color: var(--white);
+}
 
+main .site-title7 h1, h3{
+    margin: .3rem;
+}
 /* --------x------ Site title --------x------- */
 
 /* --------------- Blog Carousel ------------ */
@@ -325,6 +340,16 @@ main .blog4{
     width: 100%;
     background-size: 65%;
 }
+
+main .blog5{
+    background: url('../assets/8ball.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    background-size: 65%;
+}
+
 main .blog .blog-post{
     padding-top: 6rem;
 }
