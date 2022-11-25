@@ -182,7 +182,7 @@ main .site-title{
 }
 
 main .site-title .site-background{
-    padding-top: 10rem;
+    padding-top: 30rem;
     text-align: center;
     color: var(--black);
 }
@@ -201,7 +201,7 @@ main .site-title2{
 main .site-title2 .site-background{
     padding-top: 10rem;
     text-align: center;
-    color: var(--black);
+    color: var(--white);
 }
 
 main .site-title2 h1, h3{
@@ -218,18 +218,18 @@ main .site-title3{
 main .site-title3 .site-background{
     padding-top: 10rem;
     text-align: center;
-    color: var(--black);
+    color: var(--white);
 }
 
 main .site-title3 h1, h3{
     margin: .3rem;
 }
-main .site-title .btn{
+main .site-title3 .btn{
     margin: 1.8rem;
     background: var(--sky);
 }
 
-main .site-title .btn:hover{
+main .site-title3 .btn:hover{
     background: transparent;
     border: 1px solid var(--white);
     color: var(--white);
@@ -251,16 +251,41 @@ main .site-title4 .site-background{
 main .site-title4 h1, h3{
     margin: .3rem;
 }
-main .site-title4 .btn{
-    margin: 1.8rem;
-    background: var(--sky);
+
+main .site-title5{
+    background: url('../assets/tenniscourt.jpg');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+main .site-title5 .site-background{
+    padding-top: 10rem;
+    text-align: center;
+    color: var(--black);
 }
 
-main .site-title4 .btn:hover{
-    background: transparent;
-    border: 1px solid var(--white);
+main .site-title5 h1, h3{
+    margin: .3rem;
+}
+
+main .site-title6{
+    background: url('../assets/eSports.jpg');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+main .site-title6 .site-background{
+    padding-top: 12rem;
+    text-align: center;
     color: var(--white);
 }
+
+main .site-title6 h1, h3{
+    margin: .3rem;
+}
+
 
 /* --------x------ Site title --------x------- */
 
@@ -278,12 +303,28 @@ main .blog{
 main .blog2{
     background: url('../assets/F1Car.png');
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center;
     height: 100vh;
     width: 100%;
     background-size: 65%;
 }
 
+main .blog3{
+    background: url('../assets/tennisplayer.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    background-size: 45%;
+}
+main .blog4{
+    background: url('../assets/Esportsteam.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    background-size: 65%;
+}
 main .blog .blog-post{
     padding-top: 6rem;
 }
