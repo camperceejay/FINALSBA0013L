@@ -260,9 +260,9 @@ main .site-title5{
     justify-content: center;
 }
 main .site-title5 .site-background{
-    padding-top: 10rem;
+    padding-top: 15rem;
     text-align: center;
-    color: var(--black);
+    color: var(--white);
 }
 
 main .site-title5 h1, h3{
@@ -302,6 +302,91 @@ main .site-title7 .site-background{
 main .site-title7 h1, h3{
     margin: .3rem;
 }
+
+main .site-title8{
+    background: url('../assets/NBA4K.jpg');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+main .site-title8 .site-background{
+    padding-top: 12rem;
+    text-align: center;
+    color: var(--white);
+}
+
+main .site-title8 h1, h3{
+    margin: .3rem;
+}
+
+main .site-title9{
+    background: url('../assets/fifa4k.jpg');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+main .site-title9 .site-background{
+    padding-top: 12rem;
+    text-align: center;
+    color: var(--white);
+}
+
+main .site-title9 h1, h3{
+    margin: .3rem;
+}
+
+main .site-title10{
+    background: url('../assets/EXTREME\ SPORTS\ BACKGROUND.jpg');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+main .site-title10 .site-background{
+    padding-top: 12rem;
+    text-align: center;
+    color: var(--black);
+}
+
+main .site-title10 h1, h3{
+    margin: .3rem;
+}
+
+main .site-title11{
+    background: url('../assets/MMA\ OCTAGON\ PAGE\ BACKGROUND.png');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+main .site-title11 .site-background{
+    padding-top: 20rem;
+    text-align: center;
+    color: var(--white);
+}
+
+main .site-title11 h1, h3{
+    margin: .3rem;
+}
+
+main .site-title12{
+    background: url('../assets/BOXING\ BACKGROUND.jpg');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+main .site-title12 .site-background{
+    padding-top: 20rem;
+    text-align: center;
+    color: var(--white);
+}
+
+main .site-title12 h1, h3{
+    margin: .3rem;
+}
 /* --------x------ Site title --------x------- */
 
 /* --------------- Blog Carousel ------------ */
@@ -312,7 +397,7 @@ main .blog{
     background-position: left;
     height: 100vh;
     width: 100%;
-    background-size: 65%;
+    background-size: 45%;
 }
 
 main .blog2{
@@ -350,6 +435,50 @@ main .blog5{
     background-size: 65%;
 }
 
+main .blog6{
+    background: url('../assets/NBA\ SILHOUTTE.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 100vh;
+    width: 100%;
+    background-size: 65%;
+}
+
+main .blog7{
+    background: url('../assets/fifaPNG.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 100vh;
+    width: 100%;
+    background-size: 65%;
+}
+
+main .blog8{
+    background: url('../assets/carousel\ background\ XtremeSports.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    background-size: 65%;
+}
+
+main .blog9{
+    background: url('../assets/carousel\ background\ MMA.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    background-size: 25%;
+}
+
+main .blog10{
+    background: url('../assets/carousel\ background\ Boxing.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    background-size: 65%;
+}
 main .blog .blog-post{
     padding-top: 6rem;
 }
